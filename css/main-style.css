@@ -1,0 +1,85 @@
+/*
+Template Name: Brazil | coming soon
+Template URI: - http://shentm.info/brazil/
+Description: Brazil Template
+Version: 1.0
+Author: Template Grant Shen
+Design By: Maksim Shavkutenko
+Author URI: http://shentm.info/brazil/
+*/
+
+/* MAIN STYLE
+================================================== */
+body{
+	background-image: url(../img/bg-main.png);
+	background-size: cover;
+	-webkit-backface-visibility: hidden;
+}
+.row {
+	height: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+.bg-shadow{
+	background: url(../img/shadow-bg.png) no-repeat bottom;
+	padding-top: 40px;
+	padding-bottom: 126px;
+}
+.col1, .col2, .col3 {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background-repeat: repeat;
+	z-index: 2;
+}
+.col1 {
+  margin-top: 0px;
+}
+.col2 {
+  margin-top: 0px;	
+}
+.col3 {
+  margin-top: 0px;	
+}
+
+.col1:hover, .col2:hover, .col3:hover {
+  -webkit-animation: pulse 1.5s ease;
+  -moz-animation: pulse 1.5s ease;
+  -o-animation: pulse 1.5s ease;
+  animation: pulse 1.5s ease;	
+}
+.image img{
+	max-width: 100%;
+}
+.info-box1, .info-box2, .info-box3{
+	position: absolute;
+	z-index: 10;
+}
+.info-box1{
+	top: -23px;
+	left: 70px;
+}
+.info-box2{
+	bottom: -113px;
+	left: 33%;
+}
+.info-box3{
+	top: -23px;
+	right: 77px;
+}
+/*==================================================
+	MEDIA QUERIES
+==================================================*/
+@media (max-width: 768px) {
+  .info-box1, .info-box2, .info-box3{
+	display: none;
+  }
+}
+@media (max-width: 480px) {
+  .info-box1, .info-box2, .info-box3{
+	display: none;
+  }
+}
